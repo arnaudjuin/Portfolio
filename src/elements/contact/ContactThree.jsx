@@ -20,7 +20,7 @@ class ContactThree extends Component {
                 <h2 className="title text-center">{this.props.contactTitle}</h2>
                 <p className="text-center description">
                   I am available for freelance work. Connect with me via phone:{" "}
-                  <a href="tel:+33749457158">+33749457158</a> or email:
+                  <a href="tel:+41782512969">+41782512969</a> or email:
                   <a href="mailto:arnaud.juin@gmail.com">
                     {" "}
                     arnaud.juin@gmail.com

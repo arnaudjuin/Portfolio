@@ -81,7 +81,7 @@ setInterval(() => setCounter(counter + 2), 2000);
                                      />
                                             <h1 className="title">Hi, I’m Arnaud JUIN <br/>
                                             <TextLoop>
-                                                <span>a product owner.</span>
+                                                <span>a designer.</span>
                                                 <span>an entrepreneur.</span>
                                                 <span>an engineer.</span>
                                             </TextLoop>{" "}

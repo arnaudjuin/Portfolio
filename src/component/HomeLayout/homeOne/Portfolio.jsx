@@ -51,7 +51,7 @@ const PortfolioList = [
         images: '1',
         category: 'Full-Stack Developement',
         title: 'Squadeasy - Sport',
-        url : "https://squadeasy.com/app/fr/home"
+        url : "https://go.squadeasy.com/fr"
     },
     {
         images: '2',

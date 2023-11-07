@@ -28,16 +28,16 @@ class TabsTwo extends Component{
                                         <div className="single-tab-content">
                                             <ul>
                                                 <li>
-                                                    <a href="/service">User experience design <span> - UI/UX</span></a>
-                                                    Delight the user and make it work.
+                                                    <a href="/service">User experience design <span> - UI/UX </span></a>
+                                                    Delight the user and make it work graphically.
                                                 </li>
                                                 <li>
-                                                    <a href="/service">Web and user interface design<span> - Development</span></a>
-                                                    Websites, web experiences, ...
+                                                    <a href="/service">User interface Integration and Full stack Architectures<span> - Development</span></a>
+                                                    Websites, Web experiences, GroundControlStations, Saas, Desktop Applications ...
                                                 </li>
                                                 <li>
-                                                    <a href="/service">Product management <span> - Processes </span></a>
-                                                    Create the best value out of your product.
+                                                    <a href="/service">Network and IoT <span> - Processes </span></a>
+                                                    Network of physical objects—“things”—that are embedded with sensors, software, and other technologies for the purpose of connecting and exchanging data with other devices and systems over the internet.
                                                 </li>
                                             </ul>
                                         </div>
@@ -59,7 +59,19 @@ class TabsTwo extends Component{
                                        <div className="single-tab-content">
                                            <ul>
                                                <li>
-                                                   <a href="/service"> Co-Founder <span> Lapin </span></a> 2019 - Current
+                                                   <a href="/service"> Full Stack Developer <span> Axalp Technologies </span></a> 2022 - 2023
+                                               </li>
+                                               <li>
+                                                   <a href="/service"> Full Stack Developer <span> Uzufly </span></a> 2022
+                                               </li>
+                                               <li>
+                                                   <a href="/service"> Full Stack Developer/Data Engineer <span> Alpiq </span></a> 2020 - 2022
+                                               </li>
+                                               <li>
+                                                   <a href="/service"> Full Stack Developer <span> Lapin </span></a> 2020
+                                               </li>
+                                               <li>
+                                                   <a href="/service"> Front End Developer <span> Everycheck </span></a> 2019 - 2020
                                                </li>
                                                <li>
                                                    <a href="/service"> Product owner <span> Coinhouse</span></a> 2019
