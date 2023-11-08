@@ -8,12 +8,10 @@ import FooterTwo from "../component/footer/FooterTwo";
 import TabTwo from "../elements/tab/TabTwo";
 import ContactThree from "../elements/contact/ContactThree";
 import ServiceList from "../elements/service/ServiceList";
-import Particles from 'react-particles-js';
 import Portfolio from "../component/HomeLayout/homeOne/Portfolio"
-import ReactDOM from 'react-dom';
-import Loading from 'react-loading-spinkit';
 import LoadingOverlay from 'react-loading-overlay'
 import RingLoader from 'react-spinners/RingLoader'
+
 
 
 
@@ -50,7 +48,7 @@ setInterval(() => setCounter(counter + 2), 2000);
             {/* Start Slider Area   */}
             <div id="home" className="fix">
 
-                <div className="slider-wrapper">
+                <div className="slider-wrapper"  style={{height: "100vh"}}>
                     {/* Start Single Slide */}
                     {SlideList.map((value , index) => (
                         <div className="slide personal-portfolio-slider slider-paralax slider-style-3 d-flex align-items-center justify-content-center" key={index}>
@@ -59,27 +57,7 @@ setInterval(() => setCounter(counter + 2), 2000);
                                     <div className="col-lg-12">
                                         <div className={`inner ${value.textPosition}`}>
                                             {value.category ? <span>{value.category}</span> : ''}
-                                            <Particles
-                                       params={{
-                                         particles: {
-                                           number: {
-                                             value: 200,
-                                             density: {
-                                               enable: true,
-                                               value_area: 1000,
-                                             }
-                                           },
-                                         },
-                                         "interactivity": {
-                                          "events": {
-                                              "onhover": {
-                                                  "enable": true,
-                                                  "mode": "repulse"
-                                              }
-                                          }},
-                                       }}
-                                     />
-                                            <h1 className="title">Hi, I’m Arnaud JUIN <br/>
+                                            <h1  style={{marginTop: "-500px"}} className="title">Hi, I’m Arnaud JUIN <br/>
                                             <TextLoop>
                                                 <span>a designer.</span>
                                                 <span>an entrepreneur.</span>
